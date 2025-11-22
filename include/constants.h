@@ -1,0 +1,32 @@
+#pragma once
+
+#include "ncurses_wrapper.h"
+
+#define EXIT_SUCCESS 0
+#define EXIT_FAILURE 1
+
+#define RACKET_WIDTH 1
+
+#define VERTICAL_LINE ACS_VLINE
+#define HORIZONTAL_LINE ACS_HLINE
+#define EMPTY_SPACE ' '
+#define BALL ACS_BULLET
+#define CORNER_UL ACS_ULCORNER
+#define CORNER_UR ACS_URCORNER
+#define CORNER_LR ACS_LRCORNER
+#define CORNER_LL ACS_LLCORNER
+
+#define SKIP_KEY ' '
+
+#define RACKET_1_KEY_UP 97
+#define RACKET_1_KEY_DOWN 122
+
+#define RACKET_2_KEY_UP 107
+#define RACKET_2_KEY_DOWN 109
+
+#define QUIT_KEY 113
+
+#define TARGET_FRAME_TIME 16
+#define BALL_PHYSICS_UPDATE_FRAMES_COUNT 4
+
+#define GOALS_TO_WIN 21
